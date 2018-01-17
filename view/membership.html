@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="../js/readMore.js"></script>
+</head>
+
+<body class="main">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../img/logo.png">
+            </div>
+            <a href="../index.html" class="item">Home</a>
+            <a href="about.html" class="item">About</a>
+            <a href="events.html" class="item">Events</a>
+            <a href="#" class="item">Membership</a>
+            <a href="prices.html" class="item">Prices</a>
+            <a href="contacts" class="item">Contacts</a>
+        </div>
+    </header>
+    <div class="contentForm">
+        <div class="pageContent" id="formMembership">
+            <form>
+                <div id="payment">
+                    <p>Type of card</p>
+                    <select id="slct1" name="slct1">
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="Credit card">Credit card</option>
+                        <option value="Debit card">Debit card</option>
+                        <option value="ATM card">ATM card</option>
+                        <option value="Charge card">Charge card</option>
+                    </select>
+                </div>
+                <div id="name">
+                    <p>Your name:</p>
+                    <input name="name" class="textBox" type="text" placeholder="Name on Card" />
+                </div>
+                <div id="cardNumber">
+                    <p>Your card number</p>
+                    <input type="text" class="textBox" name="card-number" placeholder="0000-0000-0000-0000" />
+                </div>
+                <div id="date">
+                    <P>Expiration date</P>
+                    <input name="date" class="textBox" type="text" placeholder="Exp. Date MM/YYYY" />
+                </div>
+                <div id="security">
+                    <P>Your CVV Code</P>
+                    <input type="text" class="textBox" name="text" placeholder="CVV Code" />
+                </div>
+                <div id="email">
+                    <p>Your email</p>
+                    <input name="email" class="textBox" type="text" placeholder="Email" />
+                </div>
+                <div id="btnPay">
+                    <input type="button" id="btn" value="Pay Now" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+    </div>
+    <footer>@The Bulgarian Outdoor</footer>
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+$("#commentForm").validate({
+  wrapper: "div"
+});
